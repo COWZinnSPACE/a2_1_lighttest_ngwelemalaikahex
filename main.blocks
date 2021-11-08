@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id=";PN~hK59N}A`oTT@*PCV" x="35" y="57"><statement name="HANDLER"><block type="controls_if" id="75-{Rw]c!jepyg:cB0W6"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="3ukEc?{seJpTZ$4*)_Yp"><field name="OP">GT</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="Z[^qhhXZw=_t`-yC7BSe"/></value><value name="B"><shadow type="math_number" id="o|^/y7XRc~H`@!O;(_|n"><field name="NUM">128</field></shadow></value></block></value><statement name="DO0"><block type="device_print_message" id="ndmS^LX#V-#,1q)`LX^|"><value name="text"><shadow type="text" id="yWeg(deHURYYJ($2EE;C"><field name="TEXT">hi :&gt;</field></shadow></value></block></statement><statement name="ELSE"><block type="device_show_leds" id="9lh:f^j.-7I_G0kD-S[^"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        # . . . # 
+        . # . # . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="bcG(#^};m1shXVr6O.kQ"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . # . # . 
+        . . # . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="E/H4MKZham!K+G@_6H^i"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . # # # . 
+        . . # . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="[oJ1]=fsrmAF,hKdqu.Z"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="IH/DGUy#6gmT`[,:^O)("><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></next></block></statement></block></statement></block></xml>
